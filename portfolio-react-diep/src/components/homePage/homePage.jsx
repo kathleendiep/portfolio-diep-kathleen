@@ -5,6 +5,7 @@ import scrollreveal from 'scrollreveal'
 import MainBanner from './MainBanner'
 import About from './about'
 import Footer from '../footer/footer'
+import Projects from './projects/projects'
 const HomePage = () => {
   useEffect(() => {
     const sr = scrollreveal({
@@ -36,6 +37,10 @@ const HomePage = () => {
           <div className="row2">
           <About/>
           </div>
+          <div className="row2">
+          <Projects/>
+          </div>
+
         </div>
     <Footer/>
       </section>
