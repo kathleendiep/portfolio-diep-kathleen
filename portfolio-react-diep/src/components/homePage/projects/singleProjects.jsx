@@ -10,7 +10,7 @@ const SingleProjects = (props) =>{
                         {/* IMAGE */}
                         <div class="card">
                             <div class="img">
-                                <img className="image-voyager" src="/images/luluspaws-web.png"></img>
+                                <img className="image-voyager" src={props.project.img}></img>
                             </div>
                             <div class="card__body">
                                 <div class="card__color-picker">
@@ -18,13 +18,17 @@ const SingleProjects = (props) =>{
                                     <span></span>
                                     <span></span>
                                 </div>
-                                <h2 className="card-title"></h2>
-                                <h3 >tech stack</h3>
-                                <li className="card-jobtitle">country</li>
+                                <h2 className="card-title">{props.project.name}</h2>
+                                <h3></h3>
+                                <li className="card-jobtitle">{props.project.tech}</li>
                                 <div class="card-content">
                                     <div class="card-subtitle">ABOUT</div>
-                                    <p class="card-desc">description</p>
+                                    <p class="card-desc">{props.project.about}</p>
                                 </div>
+                                <div class="card-buttons">
+                                <button> <a href="link"> github </a></button>
+                                <button> <a href="link">link</a></button>
+                            </div>
                             </div>
                         </div>
                     </div>

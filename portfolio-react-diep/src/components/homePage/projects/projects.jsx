@@ -10,7 +10,12 @@ class Projects extends React.Component {
         // just had one state 
         // use this BEFORE other objects
         this.state = {
-            projects: [{name: "LULUSPAWS", tech: ["PHP", "Angular", "SQL"], about: "fully developed e commerce for small business"}],
+            projects: [
+                {name: "SnacksWorld", img: "/images/luluspaws-web.png", tech: ["PHP ", "Angular ", "SQL "], about: "fully developed e commerce for small business", github: "", link: ""},
+                {name: "LULUSPAWS", img: "/images/luluspaws-web.png",tech: ["PHP ", "Angular ", "SQL "], about: "fully developed e commerce for small business", github: "", link: ""}, 
+                {name: "Voyager", img: "/images/luluspaws-web.png",tech: ["PHP ", "Angular ", "SQL "], about: "fully developed e commerce for small business", github: "", link: ""},
+                {name: "Collections Hub", img: "/images/luluspaws-web.png", tech: ["PHP ", "Angular ", "SQL "], about: "fully developed e commerce for small business", github: "", link: ""}
+        ],
         }
     }
 
@@ -35,9 +40,13 @@ class Projects extends React.Component {
         };
         return (
             <div className ="animate__animated animate__fadeInRight animate__delay-1s">
+            <div class="section-head col-sm-12 outer-container">
+                <h4><span>Check out my work</span></h4>
+
+            </div>
                 <Carousel 
 
-        className= " outer-container"
+        // className= " outer-container"
           /*
           swipeable={false}
           draggable={false}
@@ -52,6 +61,7 @@ class Projects extends React.Component {
             {this.state.projects.map((project)=> {
                 return <SingleProjects
                 projects={this.state.projects}
+                project={project}
                 >
                  {JSON.stringify(this.projects)}
                     </SingleProjects>
