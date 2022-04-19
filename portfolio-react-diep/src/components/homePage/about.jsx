@@ -18,7 +18,7 @@ const About = () => {
                                 With years of experience as a business owner, accountant, front-end web-developer, I have a strong foundation in driving result-oriented solutions.</p>
                             <p>I have a passion to build knowledge, stay creative, and continually grow my mindset and I am motivated to leverage modern Front-end technologies to ship awesome user experiences.</p>
                         <span>Let's Connect!</span>
-<span>
+<span className="center-section">
                             <a href="mailto: kathleendiep@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
           <a href="https://github.com/kathleendiep"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
                             

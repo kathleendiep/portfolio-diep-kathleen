@@ -1,6 +1,10 @@
 @import '../../styles/styles.scss';
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
+.center-section{
+    display: flex;
+    flex-direction: row;;
+}
 // ABOUT ME
 
 .about-img {
