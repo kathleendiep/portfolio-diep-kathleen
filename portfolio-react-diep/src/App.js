@@ -1,6 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+// importing components from react-router-dom packagewe are in v5
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import 'animate.css';
 function App() {
   return (
     <div className="App">
