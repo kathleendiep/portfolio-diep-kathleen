@@ -10,6 +10,7 @@ import {
 import 'animate.css';
 import scrollreveal from "scrollreveal";
 import HomePage from './components/homePage/homePage';
+import About from './components/homePageKathleen/About';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/home" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
           <Route path="/" element={<Navigate replace to="/home" />} />
         </Routes>
       </Router>
