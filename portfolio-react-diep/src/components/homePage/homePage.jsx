@@ -6,6 +6,7 @@ import MainBanner from './MainBanner'
 import About from './about'
 import Footer from '../footer/footer'
 import Projects from './projects/projects'
+
 const HomePage = () => {
   useEffect(() => {
     const sr = scrollreveal({
