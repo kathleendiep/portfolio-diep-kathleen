@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import React, { Component }  from 'react';
 import './homePage.scss'
 import 'animate.css';
 import scrollreveal from 'scrollreveal'
@@ -30,7 +31,6 @@ const HomePage = () => {
   return (
     <>
       <section>
-
         <div className="grid">
           <div className="row">
           <MainBanner></MainBanner>

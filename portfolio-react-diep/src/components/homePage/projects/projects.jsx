@@ -11,10 +11,10 @@ class Projects extends React.Component {
         // use this BEFORE other objects
         this.state = {
             projects: [
-                { name: "SnacksWorld", img: "/images/luluspaws-web.png", tech: ["PHP ", "Angular ", "SQL "], about: "fully developed e commerce for small business", github: "", link: "" },
-                { name: "LULUSPAWS", img: "/images/luluspaws-web.png", tech: ["PHP ", "Angular ", "SQL "], about: "fully developed e commerce for small business", github: "", link: "" },
-                { name: "Voyager", img: "/images/luluspaws-web.png", tech: ["PHP ", "Angular ", "SQL "], about: "fully developed e commerce for small business", github: "", link: "" },
-                { name: "Collections Hub", img: "/images/luluspaws-web.png", tech: ["PHP ", "Angular ", "SQL "], about: "fully developed e commerce for small business", github: "", link: "" }
+                { name: "SnacksWorld", img: "/images/luluspaws-web.png", tech: ["Django, Python, React, Javascript, SQL"], about: "fully developed e commerce for small business", github: "", link: "" },
+                { name: "LULUSPAWS", img: "/images/luluspaws-web.png", tech: ["PHP, Angular, SQL "], about: "fully developed e commerce for small business", github: "", link: "" },
+                { name: "Voyager", img: "/images/luluspaws-web.png", tech: ["MERN, React, Javascript, CSS"], about: "fully developed e commerce for small business", github: "", link: "" },
+                { name: "Collections Hub", img: "/images/luluspaws-web.png", tech: ["Express, REST, HTML, CSS"], about: "fully developed e commerce for small business", github: "", link: "" }
             ],
         }
     }

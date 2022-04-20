@@ -25,9 +25,9 @@
   .completed {
     font-size: 2rem;
     color: #03fc4e;
-  
     animation: bigger 1s linear;
   }
+  /* define it below */
   
   @keyframes bigger {
     from {

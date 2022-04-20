@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // importing components from react-router-dom packagewe are in v5
 import {
@@ -9,9 +10,7 @@ import {
 } from "react-router-dom";
 import 'animate.css';
 import HomePage from './components/homePage/homePage';
-import React, { Component } from 'react';
-import PreLoader from './components/preLoader/preLoader';
- 
+
 function App() {
   return (
     <>
@@ -23,11 +22,11 @@ function App() {
           <Route path="/" element={<Navigate replace to="/home" />} />
         </Routes>
       </Router>
-      <PreLoader/>
+
     <title>Kathleen Diep | Software Developer</title>
     <meta name="keywords" content="kathleen diep, kathleen, react, javascript" />
     <meta name="description" content="Kathleen Diep | Software Developer" />
-    <Lines customLoading={loading} />
+
     </div>
     </>
   );
