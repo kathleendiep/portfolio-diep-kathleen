@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import 'animate.css';
 import HomePage from './components/homePage/homePage';
-
+import React from 'react';
 function App() {
   return (
     <div className="App">
