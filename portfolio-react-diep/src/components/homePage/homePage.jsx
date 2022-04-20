@@ -6,10 +6,8 @@ import MainBanner from './MainBanner'
 import About from './about'
 import Footer from '../footer/footer'
 import Projects from './projects/projects'
-import React from 'react'
 
 const HomePage = () => {
-  
   useEffect(() => {
     const sr = scrollreveal({
       origin: "bottom",

@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // importing components from react-router-dom packagewe are in v5
 import {
@@ -10,10 +11,11 @@ import {
 import 'animate.css';
 import HomePage from './components/homePage/homePage';
 import LoaderPage from './components/loader/loaderpage';
-import React from 'react';
+
 
 function App() {
   return (
+    <>
     <div className="App">
       <Router>
         <Routes>
@@ -28,6 +30,7 @@ function App() {
     <meta name="description" content="Kathleen Diep | Software Developer" />
 
     </div>
+    </>
   );
 }
 
