@@ -7,7 +7,9 @@ import About from './about'
 import Footer from '../footer/footer'
 import Projects from './projects/projects'
 import React from 'react'
+
 const HomePage = () => {
+  
   useEffect(() => {
     const sr = scrollreveal({
       origin: "bottom",
@@ -27,10 +29,10 @@ const HomePage = () => {
       }
     );
   }, []);
+
   return (
     <>
-      <section>
-
+      <section>  
         <div className="grid">
           <div className="row">
           <MainBanner></MainBanner>
@@ -50,3 +52,5 @@ const HomePage = () => {
 }
 
 export default HomePage
+
+   

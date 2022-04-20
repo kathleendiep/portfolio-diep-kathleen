@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./PreLoader3.css";
+import "./preLoader.css";
 
 function PreLoader() {
   const [data, setData] = useState([]);
@@ -36,12 +36,11 @@ function PreLoader() {
           )}
         </>
       ) : (
-        <>
-          <h1>Your Data</h1>
-        </>
+        <span></span>
       )}
     </>
   );
 }
 
 export default PreLoader;
+
