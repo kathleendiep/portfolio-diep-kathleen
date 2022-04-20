@@ -19,9 +19,9 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/home" element={<LoaderPage/>} />
+          <Route path="/" element={<LoaderPage/>} />
           {/* <Route path="/about" element={<About />} /> */}
-          <Route path="/" element={<Navigate replace to="/home" />} />
+          <Route path="/" element={<Navigate replace to="/" />} />
         </Routes>
       </Router>
 
