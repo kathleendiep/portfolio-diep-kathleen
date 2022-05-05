@@ -5,36 +5,7 @@
     z-index: 600;
     padding: 10px;
 }
-// .header-links {
-//     /* to make it blend in background */
-//     position: fixed;
-//     width: 100%;
-//     z-index: 500;
-//   }
-  
-//   .header-links li {
-//     color: white;
-//     display: inline;
-//     float: right;
-//     padding: 15px;
-//     font-size: 20px;
-//     font-weight: bold;
-//   }
-  
-//   .header-links a {
-//     color: white;
-//     /* background-color: #80D0C7;  ; */
-//     background-image: linear-gradient(to right, #80D0C7, #097b6e);
-//     background-repeat: no-repeat;
-//     background-size: 0% 100%;
-//     background-position-x: right;
-//     transition: background-size 500ms; 
-//   }
-  
-//   .header-links a:hover {
-//     background-size: 100% 100%; 
-//     background-position-x: left;
-//   }
+
 .hamburger{
     background-color: transparent;
     border: none;
@@ -46,7 +17,8 @@
     display: block;
     width: 40px;
     height: 3px;
-    background-color: #fff;
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
     margin-block: 10px; /*Adds separation to the bottom and the bottom*/
     border-radius: 4px;
     transition: transform .5s,
@@ -64,3 +36,34 @@
     transform: translateY(-13px)
     rotate(-45deg); /*Moves up this line 13px and rotates it -45 degrees to create the X*/
 }  
+
+.hamburger.active{
+    position: fixed;
+    right: 0;
+    color: purple;
+}
+.hamburger.active .line{
+    color: purple;
+}
+
+.container-sidenav {
+    display: flex;
+    justify-content: space-between;
+    // column-gap: 80px;
+}
+#sideNav {
+    display: flex;
+    flex-direction: column;
+    //   margin: auto;
+      padding: 10rem;
+      background-color: beige;
+  width: 100%;
+  height: 100vh;
+  transition: .45s ease;
+  padding: 8rem 6rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+} 
