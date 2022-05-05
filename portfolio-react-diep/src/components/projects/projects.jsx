@@ -6,7 +6,7 @@ import hsl from 'hsl-to-hex';
 import debounce from 'debounce';
 import './background.css';
 
-const Banner = () => {
+const ProjectsContainer = () => {
     // return a random number within a range
     function random(min, max) {
         return Math.random() * (max - min) + min;
@@ -202,6 +202,7 @@ const Banner = () => {
     }
     return (
         <>
+        <ProjectsComponent/> 
             <canvas className="orb-canvas"></canvas>
             <div className="container container-fluid">
                 <div className="overlay">
@@ -216,6 +217,6 @@ const Banner = () => {
     )
 }
 
-export default Banner
+export default ProjectsContainer
 
 

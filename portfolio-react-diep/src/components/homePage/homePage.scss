@@ -37,34 +37,38 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
         // background-image: linear-gradient(#00095e, #000638);
         background: url(/images/grabient.png);
         padding-top: 100px;
+        padding-bottom: 100px;
         position: relative;
         z-index: 1;
     }
+    .banner-main-img{
+        padding-top: -150px;
+        margin-top: -120px;
+    }
+    .contact-btn-section{   
+        display: flex; 
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+        margin-top: -200px;
+    }
+
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-}
+
 // FOR TABLETS
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-area{
+        display: none;
+    }
     p {
         font-size: 14px;
     }
     h3 {
         font-size: 20px;
     }
-    .default-btn {
-        padding: 14px 20px;
-    }
-    .banner-img {
-        display: none;
-    }
-    .section-title {
-        margin: -9px auto 40px;
-        h2 {
-            font-size: 30px;
-            margin-bottom: 15px;
-        }
-    }
     .main-banner-area {
+        display: flex;
+        flex-direction: row;
         .banner-text {
             text-align: center;
             max-width: unset;
@@ -79,6 +83,8 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
         }
         .container-fluid {
             max-width: 720px;
+            display: flex;
+            flex-direction: row;
         }
         &.main-banner-area-one {
             .banner-text {
@@ -87,16 +93,16 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
                 top: 0;
             }
         }
-        .white-shape {
-            animation: unset;
-        }
     }
 }
 
 @media only screen and (min-width : 992px) and (max-width : 1199px) {  
+    .about-area{
+        display: none;
+    }
     .main-banner-area {
         .container-fluid {
-            max-width: 960px;
+            max-width: 900px;
         }
     }
     .main-banner-area {
@@ -155,11 +161,21 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
     }
 }
 
-@media only screen and (min-width: 1824px) {
+@media only screen and (min-width: 1200px) {
+    .about-area{
+        display: none;
+    }
+    .main-banner-area {
+        background-image: linear-gradient(#00095e, #000638);
+        background: url(/images/grabient.png);
+        position: relative;
+        z-index: 1;
+    }
     .main-banner-area {
         &.main-banner-area-one {
             padding-top: 250px;
             padding-bottom: 350px;
+            padding-right: -100px;
             .banner-text {
                 top: 40px;
             }
@@ -176,7 +192,7 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
                         left: 210px;
                     }
                     &:nth-child(4) {
-                        right: 170px;
+                        right: 0px;
                     }
                 }
             }
@@ -184,9 +200,9 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
     }
 }
 .main-banner-area {
-	// background-image: linear-gradient(#00095e, #000638);
-    // background-image: "images/home-one/grabientroyal.png";
     background: url(/images/grabient.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 	position: relative;
 	z-index: 1;
 	.banner-text {
