@@ -21,7 +21,6 @@ const MainBanner = () => {
                         <div className="banner-main-img banner-one-main-img">
                             <img className="animate__animated animate__fadeInUp animate__fast" src="/images/aboutmeapple.png" alt="Image" />
                         </div>
-
                     </div>
                 </div>
                 {/* <div className="over-shape">
