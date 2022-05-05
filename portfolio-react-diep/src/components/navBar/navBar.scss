@@ -1,0 +1,66 @@
+.nav-header{
+    position: sticky;
+    position: fixed;
+    right: 0;
+    z-index: 600;
+    padding: 10px;
+}
+// .header-links {
+//     /* to make it blend in background */
+//     position: fixed;
+//     width: 100%;
+//     z-index: 500;
+//   }
+  
+//   .header-links li {
+//     color: white;
+//     display: inline;
+//     float: right;
+//     padding: 15px;
+//     font-size: 20px;
+//     font-weight: bold;
+//   }
+  
+//   .header-links a {
+//     color: white;
+//     /* background-color: #80D0C7;  ; */
+//     background-image: linear-gradient(to right, #80D0C7, #097b6e);
+//     background-repeat: no-repeat;
+//     background-size: 0% 100%;
+//     background-position-x: right;
+//     transition: background-size 500ms; 
+//   }
+  
+//   .header-links a:hover {
+//     background-size: 100% 100%; 
+//     background-position-x: left;
+//   }
+.hamburger{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* General styles for the lines */
+.hamburger .line{
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+    margin-block: 10px; /*Adds separation to the bottom and the bottom*/
+    border-radius: 4px;
+    transition: transform .5s,
+    opacity .25s;
+}
+/* Selecting the lines individually to add different effects when the active class is added to the hamburger menu.*/
+.hamburger.active .line:nth-child(1){
+    transform: translateY(13px)
+    rotate(45deg); /*Moves down this line 13px and rotates it 45 degrees to create the X*/
+}
+.hamburger.active .line:nth-child(2){
+    opacity: 0; /*Hides this line.*/
+}
+.hamburger.active .line:nth-child(3){
+    transform: translateY(-13px)
+    rotate(-45deg); /*Moves up this line 13px and rotates it -45 degrees to create the X*/
+}  

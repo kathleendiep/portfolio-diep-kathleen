@@ -11,6 +11,7 @@ import Banner from '../style/banner';
 import AboutMe from '../aboutMe/aboutMe';
 import Contact from '../aboutMe/contact'
 import Test from '../aboutMe/test';
+import NavBar from '../navBar/navBar';
 // https://github.com/koolkishan/react-music-dashboard-2/blob/master/src/App.js
 const HomePage = () => {
   useEffect(() => {
@@ -52,6 +53,7 @@ const HomePage = () => {
     <>
       <section>  
         <div className="grid">
+          <NavBar/>
           <div className="row">
           <MainBanner></MainBanner>
           </div>

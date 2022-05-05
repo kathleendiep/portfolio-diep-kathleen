@@ -9,7 +9,7 @@ const MainBanner = () => {
                 <div className="row align-items-center banner-container">
                     <div className="col-lg-6">
                         <div className="banner-text">
-                            <h1>Kathleen Diep</h1>
+                            <h1 className="gradient">Kathleen Diep</h1>
                             <p>Full Stack Web Engineer</p>
                         </div>
                     </div>
