@@ -6,16 +6,12 @@
   transform:skew(0deg, -6deg);
   margin-top:-50px;
   // padding-right: 20px;
-  z-index: 1;
+  bottom: 100px;
 }
 .skewed-text{
   transform:skew(0deg, 6deg);
   padding-top: 5rem;
-
   display: flex;
-}
-.about-content {
-  
 }
 
 
@@ -37,12 +33,13 @@
 @media only screen and (max-width : 992px) {
   .skewed-bg2{
     height: 500px;
+    width: 100vw;
   }
 }
 
-// @media only screen and (min-width : 992) {
-//   .skewed-bg2{
-//     margin-top: -300px;
-//     padding-right: 20px;
-//   }
-// }
+@media only screen and (min-width : 993) {
+  .skewed-bg2{
+    height: 600px;
+    width: 100vw;
+  }
+}

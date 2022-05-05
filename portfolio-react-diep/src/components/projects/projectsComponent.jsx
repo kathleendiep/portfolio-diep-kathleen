@@ -42,7 +42,6 @@ class ProjectsComponent extends React.Component {
             <>
                 <div className="parent">
                     <div className="mesh-background"> 
-             
                     <div className="animate__animated animate__fadeInRight animate__delay-1s project-container">
                         <div class="section-head col-sm-12">
                             <h4><span>Check out my work</span></h4>
