@@ -1,0 +1,14 @@
+.skewed-bg2{
+ background-color:white;
+  height:300px;
+  transform:skew(0deg, -6deg);
+  margin-top:-100px;
+  padding-right: 20px;
+}
+.skewed-text{transform:skew(0deg, 6deg);
+padding-top:80px;
+color:white;}
+
+.skewed-text2{transform:skew(0deg, 6deg);
+padding-top:80px;
+color:#000;}

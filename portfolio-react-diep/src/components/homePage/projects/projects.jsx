@@ -44,7 +44,7 @@ class Projects extends React.Component {
                         <h4><span>Check out my work</span></h4>
                     </div>
                     <Carousel
-                        className= "outer-container"
+                        // className= "outer-container"
                         /*
                         swipeable={false}
                         draggable={false}
@@ -63,7 +63,6 @@ class Projects extends React.Component {
                             >
                                 {JSON.stringify(this.projects)}
                             </SingleProjects>
-
                         })}
                     </Carousel>
             </div>

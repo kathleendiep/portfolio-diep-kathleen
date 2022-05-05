@@ -11,24 +11,20 @@ import {
 import 'animate.css';
 import HomePage from './components/homePage/homePage';
 import LoaderPage from './components/loader/loaderpage';
-
+import NavBar from './components/navBar/navBar';
 
 function App() {
   return (
     <>
     <div className="App">
       <Router>
+        <NavBar/>
         <Routes>
           <Route path="/" element={<LoaderPage/>} />
           {/* <Route path="/about" element={<About />} /> */}
           <Route path="/" element={<Navigate replace to="/" />} />
         </Routes>
       </Router>
-
-    <title>Kathleen Diep | Software Developer</title>
-    <meta name="keywords" content="kathleen diep, kathleen, react, javascript" />
-    <meta name="description" content="Kathleen Diep | Software Developer" />
-
     </div>
     </>
   );
