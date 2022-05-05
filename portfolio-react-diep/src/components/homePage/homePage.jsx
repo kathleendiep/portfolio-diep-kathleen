@@ -10,7 +10,7 @@ import ProjectsComponent from '../projects/projectsComponent';
 import Banner from '../style/banner';
 import AboutMe from '../aboutMe/aboutMe';
 import Contact from '../aboutMe/contact'
-
+import Test from '../aboutMe/test';
 // https://github.com/koolkishan/react-music-dashboard-2/blob/master/src/App.js
 const HomePage = () => {
   useEffect(() => {
@@ -58,11 +58,13 @@ const HomePage = () => {
           <AboutMe/>
           <Contact/>
           <div className="row2">
-          <Banner/>
+          <ProjectsComponent/>
+     
           </div>
           <div className="row3">
-          <ProjectsComponent/>
+          <Banner/>
           </div>
+          <Test/>
         </div>
           <Footer/>
       </section>

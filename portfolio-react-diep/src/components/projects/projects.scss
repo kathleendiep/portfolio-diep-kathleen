@@ -80,21 +80,35 @@ span, a, a:hover {
     margin: auto;
     padding-bottom: 3rem;
     max-width: 93.5rem;
-    // background: url(/images/backgroundmesh.png);
-    // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    // backdrop-filter: blur( 4px );
-    // -webkit-backdrop-filter: blur( 4px );
-    // border-radius: 10px;
-    // border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 
-  .project-container{
-    background: url(/images/backgroundmesh.png);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
+
+
+  .parent {
+
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    padding-top: 50px;
+    padding-bottom: -50px;
     margin-top: 50px;
+    width: 100vw;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+    // overflow: hidden;
+    display: flex;
+  }
+  
+  .mesh-background {
+    padding-top: 30px;
+    background: url(/images/mesh-profile.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  .parent > .mesh-background {
+    flex-shrink: 0;
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
   }

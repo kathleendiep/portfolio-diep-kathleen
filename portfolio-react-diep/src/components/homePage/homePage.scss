@@ -102,6 +102,24 @@ Default Btn Area Style
     box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
   }
 
+// BANNER 
+.banner-main-img{
+    padding-top: -150px;
+    margin-top: -90px;
+    padding-bottom: 4rem;
+}
+.contact-btn-section{   
+    display: flex; 
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: -200px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.banner-container {
+    margin-top: 5rem;
+}
 // PHONE
 @media only screen and (max-width: 767px) {
     .main-banner-area {
@@ -120,10 +138,10 @@ Default Btn Area Style
         display: flex; 
         flex-direction: row;
         list-style: none;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-top: -200px;
+        margin-bottom: -3.0rem;
     }
-
 }
 
 // FOR TABLETS
@@ -165,6 +183,7 @@ Default Btn Area Style
             }
         }
     }
+
 }
 
 @media only screen and (min-width : 992px) and (max-width : 1199px) {  

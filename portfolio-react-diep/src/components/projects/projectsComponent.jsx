@@ -39,37 +39,41 @@ class ProjectsComponent extends React.Component {
             }
         };
         return (
-            // <div className="animate__animated animate__fadeInRight animate__delay-1s">
             <>
-           <div className="animate__animated animate__fadeInRight animate__delay-1s project-container">
-                {/* <div className="outer-container"> */}
-                    <div class="section-head col-sm-12">
-                        <h4><span>Check out my work</span></h4>
+                <div className="parent">
+                    <div className="mesh-background"> 
+             
+                    <div className="animate__animated animate__fadeInRight animate__delay-1s project-container">
+                        <div class="section-head col-sm-12">
+                            <h4><span>Check out my work</span></h4>
+                        </div>
+                
+                        <Carousel
+                            className="outer-container"
+                            /*
+                            swipeable={false}
+                            draggable={false}
+                            */
+                            responsive={responsive}
+                            ssr
+                            showDots
+                            containerClass="container-with-dots"
+                            itemClass="image-item"
+                            deviceType={this.props.deviceType}
+                        >
+                            {this.state.projects.map((project) => {
+                                return <SingleProject
+                                    projects={this.state.projects}
+                                    project={project}
+                                >
+                                    {JSON.stringify(this.projects)}
+                                </SingleProject>
+                            })}
+                        </Carousel>
                     </div>
-                    <Carousel
-                        className="outer-container"
-                        /*
-                        swipeable={false}
-                        draggable={false}
-                        */
-                        responsive={responsive}
-                        ssr
-                        showDots
-                        containerClass="container-with-dots"
-                        itemClass="image-item"
-                        deviceType={this.props.deviceType}
-                    >
-                        {this.state.projects.map((project) => {
-                            return <SingleProject
-                                projects={this.state.projects}
-                                project={project}
-                            >
-                                {JSON.stringify(this.projects)}
-                            </SingleProject>
-                        })}
-                    </Carousel>
-                    {/* </div> */}
-                    </div>
+                    </div> 
+       
+                </div>
             </>
         )
     }
