@@ -1,5 +1,5 @@
 import React from 'react'
-import '../homePage/projects/projects.scss'
+import './singleProject.scss'
 
 const SingleProject = (props) =>{
         return (

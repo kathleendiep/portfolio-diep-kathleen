@@ -1,5 +1,6 @@
 .skewed-bg2{
- background-color:white;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  // background: url(/images/backgroundmesh.png);
   height:450px;
   transform:skew(0deg, -6deg);
   margin-top:-50px;
