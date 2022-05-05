@@ -1,8 +1,9 @@
 import React from 'react'
-import './projects.scss'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import SingleProjects from './singleProjects';
+import SingleProject from './singleProject';
+import '../homePage/projects/projects.scss'
+
 class ProjectsComponent extends React.Component {
     constructor(props) {
         // super - load parents first
@@ -18,7 +19,6 @@ class ProjectsComponent extends React.Component {
             ],
         }
     }
-
     render() {
         console.log("Rendering");
         const responsive = {
@@ -57,18 +57,17 @@ class ProjectsComponent extends React.Component {
                         deviceType={this.props.deviceType}
                     >
                         {this.state.projects.map((project) => {
-                            return <SingleProjects
+                            return <SingleProject
                                 projects={this.state.projects}
                                 project={project}
                             >
                                 {JSON.stringify(this.projects)}
-                            </SingleProjects>
+                            </SingleProject>
                         })}
                     </Carousel>
             </div>
         )
     }
 }
-
 export default ProjectsComponent
 

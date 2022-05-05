@@ -5,6 +5,7 @@ import SimplexNoise from 'simplex-noise';
 import hsl from 'hsl-to-hex';
 import debounce from 'debounce';
 import './background.css';
+import ProjectsComponent from './projectsComponent';
 
 const ProjectsContainer = () => {
     // return a random number within a range
@@ -202,14 +203,15 @@ const ProjectsContainer = () => {
     }
     return (
         <>
-        <ProjectsComponent/> 
-            <canvas className="orb-canvas"></canvas>
+
+            {/* <canvas className="orb-canvas"></canvas> */}
             <div className="container container-fluid">
                 <div className="overlay">
                     <div className="row align-items-center">
-                        <div className="col-lg-6">
-                             <span className="text-gradient">Skills</span>
-                        </div>
+           
+                                <ProjectsComponent/> 
+                             {/* <span className="text-gradient">Skills</span> */}
+    
                     </div>
                 </div>
             </div>

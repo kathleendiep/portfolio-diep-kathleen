@@ -1,0 +1,115 @@
+// buttons
+
+.banner-btn{
+    display: flex;
+    flex-direction: row;
+}
+.card-container {
+    margin: auto;
+}
+.card-container {
+    background-image: #b8dbf9;
+    background-image: radial-gradient(
+        at 70% 50%,
+        hsla(5, 88%, 79%, 1) 0,
+        transparent 50%
+      ),
+      radial-gradient(at 30% 85%, rgb(245, 202, 241) 0, transparent 50%),
+      radial-gradient(at 85% 90%, hsla(4, 88%, 79%, 1) 0, transparent 40%),
+      radial-gradient(at 30% 30%, rgb(139, 195, 235) 0, transparent 59%),
+      radial-gradient(at 10% 80%, hsla(168, 29%, 87%, 1) 0, transparent 90%),
+      radial-gradient(at 25% 5%, hsla(208, 85%, 85%, 1) 0, transparent 50%),
+      radial-gradient(at 85% 20%, rgb(178, 122, 221) 0, transparent 50%);
+  }
+
+  
+#btn-display {
+    background-color:hsla(274,78%,85%,1);
+    background-image:
+    radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(216,88%,80%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(271,69%,70%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
+}
+
+// skills container
+
+.overlay {
+    width: 100%;
+    max-width: 1140px;
+    max-height: 640px;
+    padding: 8rem 6rem;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.375);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  
+.outer-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media(min-width: 660px){
+    .outer-container{
+        width: 100%;
+        display: flex; 
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 20px;
+    }
+}
+.skills-container{
+    margin: 0 auto;
+    background-color: orange;
+    // display: grid;
+    // grid-template-columns: auto auto auto auto;
+    // grid-gap: 50px;
+    // background-color: #2196F3;
+    padding: 10px;
+}
+
+.skills-banner {
+    // display: grid;
+    // grid-template-columns: auto auto auto auto;
+    // grid-gap: 50px;
+    background-color: #2196F3;
+    // padding: 10px;
+}
+
+.card-container {
+    margin: auto;
+    // overflow-y: auto;
+    // position        : relative;
+    // z-index         : 1;
+    // overflow-x      : hidden;
+    padding: 10px 50px;
+    width: 30vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+.skills-container{
+    margin: 0 auto;
+}
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.card-container {
+    margin: 0 auto;
+    // overflow-y      : auto;
+    position        : relative;
+    z-index         : 1;
+    overflow-x      : hidden;
+}
+}

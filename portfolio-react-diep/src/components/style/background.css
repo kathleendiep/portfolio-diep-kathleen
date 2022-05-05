@@ -8,7 +8,7 @@
   --font-family: 'Poppins', system-ui;
 
   --bg-gradient: linear-gradient(
-    to bottom,
+    to top,
     hsl(var(--hue), 95%, 99%),
     hsl(var(--hue), 95%, 84%)
   );
@@ -25,12 +25,26 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+/* body {
   font-family: var(--font-family);
   color: var(--dark-color);
   background: var(--bg-gradient);
+} */
+body{
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
-
+/* body {
+  min-height: 100vh;
+  background-color: #efefef;
+  font-family: "lato", sans-serif;
+  overflow-X: hidden;
+} */
+body {
+  min-height: 100vh;
+  background-color: #efefef;
+  font-family: "lato", sans-serif;
+  overflow-X: hidden;
+}
 .orb-canvas {
   position: fixed;
   top: 0;
@@ -48,30 +62,7 @@ strong {
 .container{
   margin: auto;
 }
-.overlay {
-  width: 100%;
-  max-width: 1140px;
-  max-height: 640px;
-  padding: 8rem 6rem;
-  display: flex;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.375);
-  box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
-  border-radius: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-}
 
-.overlay__inner {
-  max-width: 36rem;
-}
-
-.overlay__title {
-  font-size: 1.875rem;
-  line-height: 2.75rem;
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  margin-bottom: 2rem;
-}
 
 .text-gradient, .header-links > ul > li > a  {
   background-image: linear-gradient(

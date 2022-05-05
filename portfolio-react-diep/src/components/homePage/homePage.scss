@@ -17,6 +17,69 @@ Default Style
 ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
 */
 
+/*
+Default Btn Area Style
+======================================================*/
+.default-btn {
+	font-size: 15px;
+	font-weight: 600;
+    width: 50 vw;
+	color: white;
+	padding: 20px 30px;
+	line-height: 1;
+	transition: $transition;
+	z-index: 1;
+	text-transform: capitalize;
+	border-radius: 10px;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	display: inline-block;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: -20px;
+		left: -40px;
+		width: 10px;
+		height: 100px;
+		background-color: #ffffff;
+		opacity: 0.5;
+		transition: $transition;
+		transform: rotate(45deg);
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		top: -20px;
+		right: -40px;
+		width: 10px;
+		height: 100px;
+		background-color: #ffffff;
+		opacity: 0.5;
+		transition: $transition;
+		transform: rotate(45deg);
+	}
+	&.active {
+		background-color: $white-color;
+		color: $main-color;
+		&:hover {
+			color: $white-color;
+			background-color: $main-color;
+		}
+	}
+	&:hover {
+		color: $white-color;
+		transition: $transition;
+		&::before {
+			left: 200px;
+		}
+		&::after {
+			right: 200px;
+		}
+	}
+}
+
 .center-section{
     display: flex;
     flex-direction: row;
@@ -30,7 +93,9 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
 }
 .about-img img{
     border-radius: 50%;
-}
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+  }
+
 // PHONE
 @media only screen and (max-width: 767px) {
     .main-banner-area {

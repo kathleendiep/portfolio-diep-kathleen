@@ -5,12 +5,12 @@ import '../style/background.css';
 import 'animate.css';
 import scrollreveal from 'scrollreveal'
 import MainBanner from './MainBanner'
-import Contact from './contact'
 import Footer from '../footer/footer'
-import Projects from './projects/projects'
+import ProjectsComponent from '../projects/projectsComponent';
 import Banner from '../style/banner';
 import AboutMe from '../aboutMe/aboutMe';
-import ProjectsContainer from '../projects/projects';
+import Contact from '../aboutMe/contact'
+
 // https://github.com/koolkishan/react-music-dashboard-2/blob/master/src/App.js
 const HomePage = () => {
   useEffect(() => {
@@ -55,17 +55,16 @@ const HomePage = () => {
           <div className="row">
           <MainBanner></MainBanner>
           </div>
-          {/* <AboutMe/> */}
           <div className="row2">
           <AboutMe/>
           <Contact/>
           </div>
           <div className="row3">
-          {/* <Projects/> */}
-          <ProjectsContainer/>
+            <Banner/>
+          <ProjectsComponent/>
           </div>
 
-        <Banner/>
+        {/* <Banner/> */}
         </div>
           <Footer/>
       </section>
