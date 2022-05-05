@@ -10,6 +10,7 @@ import ProjectsComponent from '../projects/projectsComponent';
 import Banner from '../style/banner';
 import AboutMe from '../aboutMe/aboutMe';
 import Contact from '../aboutMe/contact'
+import Skillsets from '../skillsets/skillsets';
 
 // https://github.com/koolkishan/react-music-dashboard-2/blob/master/src/App.js
 const HomePage = () => {
@@ -60,7 +61,8 @@ const HomePage = () => {
           <Contact/>
           </div>
           <div className="row3">
-            <Banner/>
+          <Banner/>
+          <Skillsets/>
           <ProjectsComponent/>
           </div>
 

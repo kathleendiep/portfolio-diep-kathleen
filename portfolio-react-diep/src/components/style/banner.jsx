@@ -204,44 +204,80 @@ const Banner = () => {
     // }
     return (
         <>
-            {/* <canvas className="orb-canvas"></canvas> */}
-            <div className="container container-fluid">
-                <div className="overlay">
-                    <div className="outer-container">
+            <div className="container-fluid overlay">
+                <section className="offer-area pt-100 pb-70">
+                    <div className="container">
                         <div class="section-head col-sm-12">
                             <h4><span>skills</span></h4>
                         </div>
-                        <div className="skills-container">
-                            <div className="banner-btn skills-banner">
-                                <a className="default-btn card-container">
-                                    React
-                                </a>
-                                {/* <Link href="/contact"> */}
-                                <a className="default-btn card-container">
-                                    HTML
-                                </a>
-                                <a className="default-btn card-container">
-                                    CSS
-                                </a>
-                                <a className="default-btn card-container">
-                                    django
-                                </a>
-                                <a className="default-btn card-container">
-                                    javascript
-                                </a>
-                                <a className="default-btn card-container">
-                                    node
-                                </a>
-                                <a className="default-btn card-container">
-                                    PostgreSQL
-                                </a>
-                                <a className="default-btn card-container">
-                                    MongoDB
-                                </a>
+                        <div className="row">
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="single-offer">
+                                    <i className="flaticon-chip"></i>
+                                    <a className="default-btn card-container">
+                                        React
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="single-offer">
+                                    <i className="flaticon-chip"></i>
+                                    <a className="default-btn card-container">
+                                        HTML
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="single-offer">
+                                    <i className="flaticon-chip"></i>
+                                    <a className="default-btn card-container">
+                                        CSS
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="single-offer">
+                                    <i className="flaticon-chip"></i>
+                                    <a className="default-btn card-container">
+                                        django
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="single-offer">
+                                    <i className="flaticon-chip"></i>
+                                    <a className="default-btn card-container">
+                                        javascript
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="single-offer">
+                                    <i className="flaticon-chip"></i>
+                                    <a className="default-btn card-container">
+                                        node
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="single-offer">
+                                    <i className="flaticon-chip"></i>
+                                    <a className="default-btn card-container">
+                                        MongoDB
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6">
+                                <div className="single-offer">
+                                    <i className="flaticon-chip"></i>
+                                    <a className="default-btn card-container">
+                                        PostgreSQL
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </>
     )
