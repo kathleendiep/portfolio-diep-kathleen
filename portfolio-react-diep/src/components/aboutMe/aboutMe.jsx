@@ -12,7 +12,14 @@ const AboutMe = () => {
           <p>Passionate about welding projects into existence starting from user experience then full stack technologies.
             With years of experience as a business owner, accountant, front-end web-developer, I have a strong foundation in driving result-oriented solutions.</p>
           <p>I have a passion to build knowledge, stay creative, and continually grow my mindset and I am motivated to leverage modern Front-end technologies to ship awesome user experiences.</p>
-          <span>Download Resume</span>
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-offer">
+              <i className="flaticon-chip"></i>
+              <a className="default-btn card-container">
+                DOWNLOAD RESUME
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

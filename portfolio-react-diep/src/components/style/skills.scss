@@ -55,12 +55,6 @@
     background-color: #2196F3;
     // padding: 10px;
 }
-
-
-
-@media only screen and (min-width: 400px) {
-
-
 .card-container {
     margin: 0 auto;
     width: 20vw;
@@ -68,6 +62,38 @@
     position        : relative;
     z-index         : 1;
     overflow-x      : hidden;
+}
+// below phone
+@media only screen and (max-width: 599px) {
+.card-container {
+    margin: 0 auto;
+    width: 20vw;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 7vh;
+    position        : relative;
+    z-index         : 1;
+    overflow-x      : hidden;
+}
+.row { 
+    margin: 0 -50px;
+}
+.col-lg-4, .col-sm-6 {
+    width: 21vw;
+    margin: auto;
+}
+.overlay {
+    width: 100%;
+    max-width: 90vw;
+    max-height: 100vh;
+    // padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.375);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 }
 

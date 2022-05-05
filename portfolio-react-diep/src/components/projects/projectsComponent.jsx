@@ -41,7 +41,7 @@ class ProjectsComponent extends React.Component {
         return (
             // <div className="animate__animated animate__fadeInRight animate__delay-1s">
             <>
-           <div className="animate__animated animate__fadeInRight animate__delay-1s">
+           <div className="animate__animated animate__fadeInRight animate__delay-1s project-container">
                 {/* <div className="outer-container"> */}
                     <div class="section-head col-sm-12">
                         <h4><span>Check out my work</span></h4>
