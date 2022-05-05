@@ -59,7 +59,6 @@ const HomePage = () => {
           <Contact/>
           <div className="row2">
           <ProjectsComponent/>
-     
           </div>
           <div className="row3">
           <Banner/>

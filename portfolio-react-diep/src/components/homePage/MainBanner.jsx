@@ -26,14 +26,6 @@ const MainBanner = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className="over-shape">
-                    <img src="/images/home-one/shape/animate1.png" alt="Image" />
-                    <img src="/images/home-one/shape/animate2.png" alt="Image" />
-                    <img src="/images/home-one/shape/animate3.png" alt="Image" />
-                </div> */}
-                {/* <div className="white-shape">
-                    <img src="/images/home-one/bottom-shape.png" alt="Image" />
-                </div> */}
             </div>
         </section>
     )

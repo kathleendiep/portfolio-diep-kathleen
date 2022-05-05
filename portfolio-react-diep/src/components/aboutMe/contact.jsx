@@ -1,9 +1,11 @@
 import React from 'react';
 import '../homePage/homePage.scss'
+import './aboutMe.scss'
+
 const Contact = () => {
     return (
         <>
-        <section className="about-area">
+        <section className="about-img-mobile">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
