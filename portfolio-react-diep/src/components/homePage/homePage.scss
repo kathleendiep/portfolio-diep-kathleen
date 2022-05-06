@@ -1,6 +1,7 @@
 @import '../../styles/styles.scss';
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 /*
 Default Style
 ============================*/
@@ -112,7 +113,32 @@ Default Btn Area Style
 .banner-container {
     margin-top: 5rem;
 }
+// BANNER ICONS
+.social-links a {
+    margin: 5px;
+    color: white;
+    font-size: 2em;
+  }
 
+    /* Specific colors of social links when hovered */
+.social-links .github-link:hover {
+    color: #000;
+  }
+  .social-links .fcc-link:hover {
+    color: #106E29;
+  }
+  .social-links .linkedin-link:hover {
+    color: #007bb5;
+  }
+  .social-links .twitter-link:hover {
+    color: #55acee;
+  }
+  .social-links .email-link:hover {
+    color:#dd4b39;
+  }
+  
+  
+  
 
 // PHONE
 @media only screen and (max-width: 767px) {

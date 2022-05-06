@@ -20,9 +20,9 @@ const NavBar = () => {
             ? 
             <div class="nav-header">
             <button type="button" class="hamburger active" onClick={menuIsNotActive}>
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
+                <span class="line line-active"></span>
+                <span class="line line-active"></span>
+                <span class="line line-active"></span>
             </button>
             <div class="container-sidenav">
                     <nav id="sideNav">
