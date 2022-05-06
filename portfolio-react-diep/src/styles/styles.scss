@@ -35,18 +35,18 @@ body {
     font-family: $body-font-family;
 	color: $body-color;
 }
-a {
-	display: inline-block;
-    transition: $transition;
-    text-decoration: none;
-	&:hover {
-        text-decoration: none;
-        color: $heading-color;
-	}
-	&:focus {
-		text-decoration: none;
-	} 
-}
+// a {
+// 	display: inline-block;
+//     transition: $transition;
+//     text-decoration: none;
+// 	&:hover {
+//         text-decoration: none;
+//         color: $heading-color;
+// 	}
+// 	&:focus {
+// 		text-decoration: none;
+// 	} 
+// }
 // button {
 //     outline: 0 !important; 
 // 	box-shadow: none;
