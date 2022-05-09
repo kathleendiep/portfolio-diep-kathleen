@@ -91,7 +91,10 @@ Default Btn Area Style
 		}
 	}
 }
-
+.default-btn > a {
+    text-decoration: none;
+    color: white;
+}
 .center-section{
     display: flex;
     flex-direction: row;
@@ -102,50 +105,46 @@ Default Btn Area Style
 .banner-main-img{
     padding-top: -150px;
     margin-top: -90px;
-    padding-bottom: 4rem;
+    // padding-bottom: 4rem;
 }
-.social-links {   
-    display: flex; 
-    flex-direction: row;
+.links-social { 
+    display: flex;  
     justify-content: space-evenly;
-    margin-top: -200px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-top: auto;
 }
 .banner-container {
     margin-top: 5rem;
 }
+
+
 // BANNER ICONS
-.social-links a {
+.links-social ul {  
+    list-style-type: none;
+}
+
+.links-social a {
     margin: 5px;
     color: white;
     font-size: 2em;
-  }
+}
 
-    a:hover{
-    color: #000;
+    /* Specific colors of hoversocial links when hovered */
+.links-social .github-link:hover {
+    color: #000  !important;
   }
-
-    /* Specific colors of social links when hovered */
-.github-link:hover {
-    color: #000;
+  .links-social .linkedin-link:hover {
+    color: #007bb5 !important;
   }
-  .social-links .fcc-link:hover {
-    color: #106E29;
+  .links-social .twitter-link:hover {
+    color: #55acee !important;
   }
-  .social-links .linkedin-link:hover {
-    color: #007bb5;
-  }
-  .social-links .twitter-link:hover {
-    color: #55acee;
-  }
-  .social-links > li > .email-link:hover {
+  .links-social .email-link:hover {
     color:#dd4b39;
   }
   
-  Icon > twitter-link:hover{ 
-    color: #55acee;
-  }
+//   Icon > twitter-link:hover{ 
+//     color: #55acee;
+//   }
   
   
 
@@ -155,7 +154,7 @@ Default Btn Area Style
         // background-image: linear-gradient(#00095e, #000638);
         background: url(/images/grabient.png);
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 120px;
         position: relative;
         z-index: 1;
     }
@@ -163,12 +162,12 @@ Default Btn Area Style
         padding-top: -150px;
         margin-top: -120px;
     }
-    .social-links{   
+    .links-social {   
         display: flex; 
         flex-direction: row;
         justify-content: space-evenly;
         margin-top: -200px;
-        margin-bottom: -3.0rem;
+        margin-bottom: -2.7rem;
     }
     .about-img-full{
         display: none;
@@ -187,8 +186,14 @@ Default Btn Area Style
         font-size: 20px;
     }
     .main-banner-area {
-        display: flex;
-        flex-direction: row;
+        padding-top: -50vh;
+        padding-bottom: 30vh;
+        position: relative;
+        z-index: 1;
+    }
+    .links-social {   
+        margin-top: -27vh;
+    }
         .banner-text {
             text-align: center;
             max-width: unset;
@@ -206,26 +211,19 @@ Default Btn Area Style
             display: flex;
             flex-direction: row;
         }
-        &.main-banner-area-one {
-            .banner-text {
-                max-width: unset;
-                margin-left: unset;
-                top: 0;
-            }
-        }
-    }
-
 }
 
+
+
 @media only screen and (min-width : 992px) and (max-width : 1199px) {  
-    .about-img-mobile{
-        display: none;
-    }
-    .main-banner-area {
-        .container-fluid {
-            max-width: 900px;
-        }
-    }
+    // .about-img-mobile{
+    //     display: none;
+    // }
+    // .main-banner-area {
+    //     .container-fluid {
+    //         max-width: 900px;
+    //     }
+    // }
     .main-banner-area {
         &.main-banner-area-one {
             .banner-img {
@@ -248,6 +246,9 @@ Default Btn Area Style
         }
     }
     .main-banner-area {
+        padding-bottom: 20vh;
+        position: relative;
+        z-index: 1;
         .banner-text {
             h1 {
                 font-size: 40px;
@@ -257,6 +258,9 @@ Default Btn Area Style
                 font-size: 15px;
             }
         }
+    }
+    .links-social {   
+        margin-top: -27vh;
     }
 
     .about-content {
@@ -291,8 +295,11 @@ Default Btn Area Style
         background: url(/images/grabient.png);
         position: relative;
         z-index: 1;
-        padding-bottom: 7rem;
+        padding-bottom: 12rem;
         margin-bottom: -5rem;
+    }
+    .links-social {   
+        margin-top: -27vh;
     }
     .main-banner-area {
         &.main-banner-area-one {

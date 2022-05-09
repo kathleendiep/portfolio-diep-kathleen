@@ -2,11 +2,13 @@
   background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   // background: url(/images/backgroundmesh.png);
   height:450px;
-  width: 100%;
+  width: 101%;
   transform:skew(0deg, -6deg);
   margin-top:-50px;
-  // padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   bottom: 100px;
+  margin-right: 200px;
 }
 .skewed-text{
   transform:skew(0deg, 6deg);
@@ -34,14 +36,16 @@
 // FOR LAPTOPS
 @media only screen and (max-width : 992px) {
   .skewed-bg2{
-    height: 500px;
-    width: 100vw;
+    height: 590px;
+    width: 102%;
+    padding-right: 20px;
   }
 }
 
 @media only screen and (min-width : 993) {
   .skewed-bg2{
     height: 600px;
-    width: 100vw;
+    width: 102%;
+    padding-right: 20px;
   }
 }
