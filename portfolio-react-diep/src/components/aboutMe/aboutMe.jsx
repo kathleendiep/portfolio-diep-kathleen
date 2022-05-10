@@ -18,7 +18,7 @@ const AboutMe = () => {
             With years of experience as a business owner, accountant, front-end web-developer, I have a strong foundation in driving result-oriented solutions.</p>
           <p>I have a passion to build knowledge, stay creative, and continually grow my mindset and I am motivated to leverage modern Front-end technologies to ship awesome user experiences.</p>
 
-          <button className="default-btn card-container">
+          <button className="default-btn about-btn about-container">
             <a href="Kathleen-Diep-Resume-Software-Developer.pdf" download="KathleenDiepResume.pdf">
               Download Resume <Icon icon="ep:download" />
             </a>
