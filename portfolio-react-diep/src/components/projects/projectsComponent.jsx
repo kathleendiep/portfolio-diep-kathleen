@@ -12,10 +12,10 @@ class ProjectsComponent extends React.Component {
         // use this BEFORE other objects
         this.state = {
             projects: [
-                { name: "SnacksWorld", img: "/images/luluspaws-web.png", tech: ["Django, Python, React, Javascript, SQL"], about: "fully developed e commerce for small business", github: "", link: "" },
-                { name: "LULUSPAWS", img: "/images/luluspaws-web.png", tech: ["PHP, Angular, SQL "], about: "fully developed e commerce for small business", github: "", link: "" },
-                { name: "Voyager", img: "/images/luluspaws-web.png", tech: ["MERN, React, Javascript, CSS"], about: "fully developed e commerce for small business", github: "", link: "" },
-                { name: "Collections Hub", img: "/images/luluspaws-web.png", tech: ["Express, REST, HTML, CSS"], about: "fully developed e commerce for small business", github: "", link: "" }
+                { name: "Pet-Ventures", img: "/images/luluspaws-web.png", tech: ["Django, Python, React, Javascript, SQL, Cloudinary"], about: "social media app that will connect pet lovers through setting up dog/human profiles, services, and blog posts ", github: "https://github.com/kathleendiep/pet-ventures", link: "https://petventures.herokuapp.com" },
+                { name: "SnacksWorld", img: "/images/luluspaws-web.png", tech: ["Django, Python, React, Javascript, SQL"], about: "upload and share info of different snacks in the world", github: "https://github.com/kathleendiep/snack-world-react", link: "https://snack-world.herokuapp.com/home" },
+                { name: "LULUSPAWS", img: "/images/luluspaws-web.png", tech: ["PHP, Angular, SQL "], about: "fully developed e commerce for small business", github: "n/a", link: "https://www.luluspaws.com" },
+                { name: "Voyager", img: "/images/luluspaws-web.png", tech: ["MERN, React, Javascript, CSS"], about: "fully developed e commerce for small business", github: "https://github.com/kathleendiep/voyager-front-end", link: "" },
             ],
         }
     }
