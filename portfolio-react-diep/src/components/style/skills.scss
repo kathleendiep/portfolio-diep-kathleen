@@ -35,7 +35,7 @@
     width: 100%;
     max-width: 1140px;
     max-height: 640px;
-    padding: 8rem 6rem;
+    padding: 4rem 2rem;
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0.375);
@@ -61,13 +61,51 @@
     overflow-x: hidden;
 }
 
-// below phone
+// SPAN HEADER with underline 
+
+.skills-head {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6vh;
+    margin: auto;
+    }
+  
+    .skills-head h4 {
+    position: relative;
+    padding:0;
+    color: black;
+    line-height: 1;
+    letter-spacing:0.3px;
+    font-size: 34px;
+    font-weight: 700;  
+    text-align:center;
+    text-transform:none;
+    margin-bottom:30px;
+    }
+    .skills-head h4:before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #f91942;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    right:0;  
+    margin:0 auto;
+    }
+    .skills h4 span {
+    font-weight: 700;
+    padding-bottom: 5px;
+    color:#2f2f2f
+    }
+
+// responsive phone for button
 @media only screen and (max-width: 599px) {
     .card-container {
         margin: 0 auto;
-        width: 30vw;
-        padding-right: 15px;
-        padding-left: 15px;
+        width: 20vw;
+        // padding-right: 15px;
+        // padding-left: 15px;
         height: 7vh;
         position: relative;
         z-index: 1;

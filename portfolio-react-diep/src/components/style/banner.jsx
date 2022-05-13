@@ -207,10 +207,10 @@ const Banner = () => {
             <div className="container-fluid overlay">
                 <section className="offer-area pt-100 pb-70">
                     <div className="container">
-                        <div class="section-head col-sm-12">
+                        <div class="skills-head col-sm-12">
                             <h4><span>skills</span></h4>
                         </div>
-                        <div className="row">
+                        <div className="row skills-row">
                             <div className="col-lg-4 col-sm-6">
                                 <div className="single-offer">
                                     <i className="flaticon-chip"></i>

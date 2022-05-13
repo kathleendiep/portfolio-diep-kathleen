@@ -105,6 +105,19 @@ Default Btn Area Style
     display: inline-block;
 }
 
+// responsive default-btn 
+@media only screen and (max-width: 600px) {
+    default-btn{
+        font-size: 15px;
+        font-weight: 600;
+        width: 30vw;
+        display: inline-block;
+        text-align: center;
+        color: white;
+        // padding: 20px 30px;
+    }
+}
+
 .center-section {
     display: flex;
     flex-direction: row;
@@ -176,20 +189,6 @@ Default Btn Area Style
     }
 }
 
-// @media only screen and (min-width: 471px) and (max-width: 767px) {
-//     .banner-text {
-//         margin-bottom: -9vh;
-//         margin-left: 30vw;
-//     }
-//     .banner-main-img {
-//         margin-left: 30vw;
-//         // padding-top: -150px;
-//         // margin-top: -120px;
-//     }
-//     .social-links {
-//         margin-left: 30vw;
-//     }
-// }
 // FOR TABLETS
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .about-img-mobile {
