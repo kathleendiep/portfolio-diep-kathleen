@@ -39,6 +39,8 @@ a {
 Default Btn Area Style
 ======================================================*/
 
+
+
 .default-btn {
     font-size: 15px;
     font-weight: 600;
@@ -105,16 +107,14 @@ Default Btn Area Style
     display: inline-block;
 }
 
-// responsive default-btn 
-@media only screen and (max-width: 600px) {
-    default-btn{
-        font-size: 15px;
-        font-weight: 600;
-        width: 30vw;
-        display: inline-block;
-        text-align: center;
-        color: white;
-        // padding: 20px 30px;
+@media only screen and (max-width: 767px) {
+    .default-btn{
+        width: 40vw;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .default-btn{
+        width: 25vw;
     }
 }
 
