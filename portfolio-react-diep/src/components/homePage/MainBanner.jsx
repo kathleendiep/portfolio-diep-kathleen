@@ -2,11 +2,8 @@ import { Link } from "react-router-dom";
 import React from 'react'
 import './homePage.scss'
 import './../../styles/styles.scss'
-import { faNavicon } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Icon } from '@iconify/react';
-
-
+import 'animate.css';
 const MainBanner = () => {
     return (
         <section className="main-banner-area">
@@ -19,7 +16,7 @@ const MainBanner = () => {
                     <div className="col-lg-6">
                         {/* Main Image */}
                         <div className="banner-main-img">
-                            <img className="animate__animated animate__fadeInUp animate__fast" src="/images/aboutmeapple.png" alt="Image" />
+                            <img className="animate__animated animate__fadeInRight animate__fast" src="/images/aboutmeapple.png" alt="Image" />
                         </div>
                         <div className='social-links'>
                             <ul>

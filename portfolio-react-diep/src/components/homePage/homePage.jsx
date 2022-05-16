@@ -13,6 +13,7 @@ import Contact from '../aboutMe/contact'
 import Test from '../aboutMe/test';
 import NavBar from '../navBar/navBar';
 // https://github.com/koolkishan/react-music-dashboard-2/blob/master/src/App.js
+
 const HomePage = () => {
   useEffect(() => {
     const sr = scrollreveal({
