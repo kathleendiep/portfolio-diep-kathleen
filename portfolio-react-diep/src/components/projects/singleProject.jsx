@@ -1,5 +1,6 @@
 import React from 'react'
 import './singleProject.scss'
+import { Icon } from '@iconify/react';
 
 const SingleProject = (props) =>{
         return (
@@ -26,8 +27,8 @@ const SingleProject = (props) =>{
                                     <p class="card-desc">{props.project.about}</p>
                                 </div>
                                 <div class="card-buttons">
-                                <button> <a href="link"> github </a></button>
-                                <button> <a href="link">link</a></button>
+                                <button> <a href={props.project.github} target="_blank"><Icon icon="bytesize:github" /> </a></button>
+                                <button> <a href={props.project.link} target="_blank"><Icon icon="clarity:computer-solid" /></a></button>
                             </div>
                             </div>
                         </div>

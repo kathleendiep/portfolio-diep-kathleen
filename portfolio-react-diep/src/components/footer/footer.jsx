@@ -15,7 +15,7 @@ const Footer = () => {
                         <li className="social-icons"><a href="https://twitter.com/imKathleenDiep" target="_blank" class="twitter-link"><Icon icon="brandico:twitter-bird" /></a></li>
                     </ul>
             </div>
-             &copy;2022 Kathleen Diep | All Rights Reserved
+             Designed and Created by &copy;2022 Kathleen Diep 
             
         </footer> 
     )
