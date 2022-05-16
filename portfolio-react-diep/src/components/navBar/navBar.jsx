@@ -28,10 +28,10 @@ const NavBar = () => {
                         <div class="container-sidenav">
                             <nav id="sideNav">
                                 {/* Endpoint to route to Home component */}
-                                <a href="#about"> About </a>
-                                <a href="#Projects">Projects</a>
-                                <a href="#Skills">Skills</a>
-                                <a href="#contact">Contact</a>
+                                <h2><a href="#about">About</a></h2>
+                                <h2><a href="#Projects">Projects</a></h2>
+                                <h2><a href="#Skills">Skills</a></h2>
+                                <h2><a href="#contact">Contact</a></h2>
                             </nav>
                         </div>
                     </div>

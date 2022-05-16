@@ -243,7 +243,7 @@ Default Btn Area Style
     }
     .banner-main-img {
         display: block;
-        height: 86vh;
+        height: 107vh;
         margin-top: -20px;
         margin-bottom: 2vh;
     }
@@ -367,6 +367,7 @@ Default Btn Area Style
     float: left;
     transition: all 0.5s ease;
 }
+// hover
 
 .social-links ul li:hover.social-icons {
     // box-shadow: 0 0 15px #3b5998;
@@ -374,13 +375,8 @@ Default Btn Area Style
     filter: drop-shadow(2px 4px 8px #585858);
 }
 
-// .social-icons a:hover {
-//     color: black;
-//     box-shadow: 0 0 15px #3b5998;
-//     transition: all 0.5s ease;
-// }
 .social-icons a:hover {
-    color: black;
+    color: rgba(94,114,235,1);
 }
 
 @keyframes move {
