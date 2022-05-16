@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react';
 const Footer = () => {
     return(
         <footer className="mesh-footer" id="contact">
-            <span> let's connect!</span>
+            <h3 class="gradient-connect">let's connect</h3>
             <div className='social-links'>
                     <ul>
                         <li className="social-icons"><a href="mailto:kathleendiep@gmail.com" className="email-link" target="_blank"><Icon icon="ic:baseline-email" /></a></li>
@@ -15,7 +15,7 @@ const Footer = () => {
                         <li className="social-icons"><a href="https://twitter.com/imKathleenDiep" target="_blank" class="twitter-link"><Icon icon="brandico:twitter-bird" /></a></li>
                     </ul>
             </div>
-            <li>    &copy;2022 Kathleen Diep | All Rights Reserved </li>
+             &copy;2022 Kathleen Diep | All Rights Reserved
             
         </footer> 
     )
