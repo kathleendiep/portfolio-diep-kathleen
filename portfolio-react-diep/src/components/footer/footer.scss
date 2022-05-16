@@ -29,6 +29,15 @@ footer {
     footer a  {
     color: #fff;
   }
+
+  .mesh-footer {
+    background: url(/images/mesh-profile.png);
+    background-size: cover;
+    z-index: -1;
+    margin-top: 10vh;
+  }
+
+
   // phone
   /* Style the Un-order list by setting its list-style to none */
   .wrapper ul {

@@ -4,6 +4,7 @@ import { Icon } from '@iconify/react';
 
 const AboutMe = () => {
   return (
+    <section id="about">
     <div class="well skewed-bg2 text-center">
       <div className="skewed-text">
 
@@ -25,9 +26,8 @@ const AboutMe = () => {
           </button>
         </div>
       </div>
-
     </div>
-
+    </section>
   )
 }
 export default AboutMe

@@ -369,8 +369,9 @@ Default Btn Area Style
 }
 
 .social-links ul li:hover.social-icons {
-    box-shadow: 0 0 15px #3b5998;
+    // box-shadow: 0 0 15px #3b5998;
     transition: all 0.5s ease;
+    filter: drop-shadow(2px 4px 8px #585858);
 }
 
 // .social-icons a:hover {

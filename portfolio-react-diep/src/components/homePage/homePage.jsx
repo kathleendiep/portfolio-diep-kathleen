@@ -61,12 +61,13 @@ const HomePage = () => {
           <AboutMe/>
           <Contact/>
           <div className="row2">
+          <a id="projects">
           <ProjectsComponent/>
+          </a>
           </div>
           <div className="row3">
           <Banner/>
           </div>
-          <Test/>
         </div>
           <Footer/>
       </section>

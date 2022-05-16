@@ -204,7 +204,7 @@ const Banner = () => {
     // }
     return (
         <>
-            <div className="container-fluid overlay">
+            <div className="container-fluid overlay" id="Skills">
                 <section className="offer-area pt-100 pb-70">
                     <div className="container">
                         <div class="skills-head col-sm-12">

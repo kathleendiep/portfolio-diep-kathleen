@@ -40,7 +40,8 @@ class ProjectsComponent extends React.Component {
         };
         return (
             <>
-                <div className="parent">
+                
+                <div className="parent" id="Projects">
                     <div className="mesh-background"> 
                     <div className="animate__animated animate__fadeInRight animate__delay-1s project-container">
                         <div class="section-head col-sm-12">

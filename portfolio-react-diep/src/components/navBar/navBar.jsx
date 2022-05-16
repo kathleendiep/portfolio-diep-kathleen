@@ -1,6 +1,7 @@
 import React, { useState, Component } from 'react';
 import './navBar.scss'
 import { Link } from 'react-router-dom';
+import ProjectsComponent from '../projects/projectsComponent';
 
 const NavBar = () => {
     const [active, setActive] = useState(false)
@@ -27,11 +28,10 @@ const NavBar = () => {
                         <div class="container-sidenav">
                             <nav id="sideNav">
                                 {/* Endpoint to route to Home component */}
-                                <Link to="#Projects">Projects</Link>
-                                {/* Endpoint to route to About component */}
-                                <Link to="#Skills">Skills</Link>
-                                {/* Endpoint to route to Check more out! component */}
-                                <Link to="#About">About</Link>
+                                <a href="#about"> About </a>
+                                <a href="#Projects">Projects</a>
+                                <a href="#Skills">Skills</a>
+                                <a href="#contact">Contact</a>
                             </nav>
                         </div>
                     </div>
