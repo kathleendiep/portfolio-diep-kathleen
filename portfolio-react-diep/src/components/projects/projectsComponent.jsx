@@ -16,7 +16,7 @@ class ProjectsComponent extends React.Component {
                 { name: "SnacksWorld", img: "/images/projects-snack.png", tech: ["Django, Python, React, Javascript, SQL"], about: "upload and share info of different snacks in the world", github: "https://github.com/kathleendiep/snack-world-react", link: "https://snack-world.herokuapp.com/home" },
                 { name: "LULUSPAWS", img: "/images/luluspaws-web.png", tech: ["PHP, Angular, SQL "], about: "fully developed e commerce for small business", github: "n/a", link: "https://www.luluspaws.com" },
                 { name: "Portfolio", img: "/images/portfolio-kd.png", tech: ["React, Javascript, CSS"], about: "this whole site is made and designed by me from scratch! click on github link if you'd like to see source code :) ", github: "https://github.com/kathleendiep/portfolio-diep-kathleen", link: "www.kathleendiep.com" },
-                { name: "Voyager", img: "/images/projects-voyager.png", tech: ["MERN, React, Javascript, CSS"], about: "fully developed e commerce for small business", github: "https://github.com/kathleendiep/voyager-front-end", link: "" },
+                { name: "Voyager", img: "/images/projects-voyager.png", tech: ["MERN, React, Javascript, CSS"], about: "fully developed e commerce for small business", github: "https://github.com/kathleendiep/voyager-front-end", link: "https://voyager-front-end.herokuapp.com" },
             ],
         }
     }
@@ -81,3 +81,20 @@ class ProjectsComponent extends React.Component {
 }
 export default ProjectsComponent
 
+	<div class="parent">
+		<div class="mesh-background"> 
+		     <div className="container-fluid">
+                <div className="col-lg-6">
+                    <div className="banner-text">
+                    <h1>Snack World</h1>
+                    <p>Explore the world with different snacks! </p>
+                    <button className="button text-link"><Link to="/about">About</Link></button>
+                    </div>
+                </div>
+                <div className="col-lg-6 banner-main-img">
+                        <img src="/img/snacks-world-banner.png" alt="Image" />
+                </div>
+            </div>
+        </div>
+		</div>
+	</div>
