@@ -40,8 +40,7 @@ class ProjectsComponent extends React.Component {
             }
         };
         return (
-            <>
-                
+            <> 
                 <div className="parent" id="Projects">
                     <div className="mesh-background"> 
                     <div className="animate__animated animate__fadeInRight animate__delay-1s project-container">
@@ -80,21 +79,3 @@ class ProjectsComponent extends React.Component {
     }
 }
 export default ProjectsComponent
-
-	<div class="parent">
-		<div class="mesh-background"> 
-		     <div className="container-fluid">
-                <div className="col-lg-6">
-                    <div className="banner-text">
-                    <h1>Snack World</h1>
-                    <p>Explore the world with different snacks! </p>
-                    <button className="button text-link"><Link to="/about">About</Link></button>
-                    </div>
-                </div>
-                <div className="col-lg-6 banner-main-img">
-                        <img src="/img/snacks-world-banner.png" alt="Image" />
-                </div>
-            </div>
-        </div>
-		</div>
-	</div>
