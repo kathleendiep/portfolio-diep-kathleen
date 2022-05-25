@@ -100,10 +100,16 @@
     }
 
 // responsive phone for button
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 450px) {
+    .container {
+        margin-left: -31px;
+    }
+    .skills-head {
+        margin-left: 57px;
+    }
     .card-container {
         margin: 0 auto;
-        width: 20vw;
+        width: 30vw;
         // padding-right: 15px;
         // padding-left: 15px;
         height: 7vh;
@@ -112,7 +118,29 @@
         overflow-x: hidden;
     }
     .row {
-        margin: 0 -50px;
+        margin: 0 -4vh;
+    }
+}
+@media only screen and (max-width: 599px) {
+    .container {
+        margin-left: -31px;
+    }
+    .skills-head {
+        margin-left: 57px;
+    }
+      
+    .card-container {
+        margin: 0 auto;
+        width: 25vw;
+        // padding-right: 15px;
+        // padding-left: 15px;
+        height: 7vh;
+        position: relative;
+        z-index: 1;
+        overflow-x: hidden;
+    }
+    .row {
+        margin: 1 -6vh;
     }
     .col-lg-4,
     .col-sm-6 {
