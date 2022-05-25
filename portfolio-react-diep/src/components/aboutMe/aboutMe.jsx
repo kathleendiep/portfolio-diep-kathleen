@@ -20,11 +20,10 @@ const AboutMe = () => {
           <p>I have a passion to build knowledge, stay creative, and continually grow my mindset and I am motivated to leverage modern Front-end technologies to ship awesome user experiences.</p>
 
           <button className="default-btn about-btn about-container">
-            <a href="Kathleen-Diep-Resume.pdf" download="KathleenDiepResume.pdf">
+            <a href="Kathleen-Diep-Resume-Software.pdf" download="KathleenDiepSoftwareResume.pdf">
               Download Resume <Icon icon="ep:download" />
             </a>
           </button>
-          <a href="Kathleen-Diep-Resume.pdf" download="Kathleen-Diep-Resume.pdf">Download it!</a>
         </div>
       </div>
     </div>
