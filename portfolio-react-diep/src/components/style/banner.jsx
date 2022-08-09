@@ -215,7 +215,7 @@ const Banner = () => {
                                 <div className="single-offer">
                                     <i className="flaticon-chip"></i>
                                     <a className="default-btn card-container">
-                                        React
+                                        SWIFT / SWIFT UI 
                                     </a>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@ const Banner = () => {
                                 <div className="single-offer">
                                     <i className="flaticon-chip"></i>
                                     <a className="default-btn card-container">
-                                        HTML
+                                        iOS Development
                                     </a>
                                 </div>
                             </div>
@@ -231,7 +231,7 @@ const Banner = () => {
                                 <div className="single-offer">
                                     <i className="flaticon-chip"></i>
                                     <a className="default-btn card-container">
-                                        CSS
+                                    React 
                                     </a>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@ const Banner = () => {
                                 <div className="single-offer">
                                     <i className="flaticon-chip"></i>
                                     <a className="default-btn card-container">
-                                        django
+                                    HTML/CSS
                                     </a>
                                 </div>
                             </div>
@@ -247,7 +247,7 @@ const Banner = () => {
                                 <div className="single-offer">
                                     <i className="flaticon-chip"></i>
                                     <a className="default-btn card-container">
-                                        javascript
+                                        Javascript
                                     </a>
                                 </div>
                             </div>
@@ -255,7 +255,7 @@ const Banner = () => {
                                 <div className="single-offer">
                                     <i className="flaticon-chip"></i>
                                     <a className="default-btn card-container">
-                                        node
+                                        Full Stack Web Techology
                                     </a>
                                 </div>
                             </div>

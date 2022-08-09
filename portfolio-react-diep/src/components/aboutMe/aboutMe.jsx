@@ -21,7 +21,8 @@ const AboutMe = () => {
           <p>I have a passion to build knowledge, stay creative, and continually grow my mindset and I am motivated to leverage modern technologies to ship awesome user experiences.</p>
 
           <button className="default-btn about-btn about-container">
-            <a href="Kathleen-Diep-Resume-Software.pdf" download="KathleenDiepSoftwareResume.pdf">
+          {/* <a href="Kathleen-Diep-Resume-Software.pdf" download="KathleenDiepSoftwareResume.pdf"> */}
+            <a href="Kathleen-Diep-iOSDeveloper.pdf" download="Kathleen-Diep-iOSDeveloper-Software-Engineer.pdf">
               Download Resume <Icon icon="ep:download" />
             </a>
           </button>
