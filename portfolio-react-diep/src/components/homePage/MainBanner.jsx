@@ -11,7 +11,7 @@ const MainBanner = () => {
                 <div className="row align-items-center banner-container">
                     <div className="col-lg-6 banner-text">
                             <h1 className="gradient">Kathleen Diep</h1>
-                            <p>Full Stack Web Engineer</p>
+                            <p>Software Engineer | iOS Developer</p>
                     </div>
                     <div className="col-lg-6">
                         {/* Main Image */}
